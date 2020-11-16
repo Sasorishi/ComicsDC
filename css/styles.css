@@ -1,0 +1,114 @@
+/* #### fonts #### */
+
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    font-size: 62.5%;
+    background: url("./../assets/HWu44Bv.png")no-repeat fixed center center / cover;
+}
+
+body {
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure {
+    margin: 0;
+    font-weight: lighter;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+/* #### Theme #### */
+
+header,
+main {
+    max-width: 80rem;
+    border: .1rem solid transparent;
+    margin: 0 auto;
+    background-color: rgba(254, 251, 253, 0.85);
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.75);
+    padding-left: 1rem;
+    padding-right: 1rem ;
+}
+
+nav h2, section h2 {
+    font-family: 'Zhi Mang Xing';
+    font-size: 5rem;
+    background-color: #3598DA;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+nav ol li {
+    line-height: 3.5rem;
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav h2::after {
+    content: '>';
+    margin-left: 2rem;
+}
+
+header h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Zhi Mang Xing';
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+header h1::before {
+    content: '\002605';
+    color: #f55a3c;
+    margin-right: 2rem;
+}
+
+section h2::after {
+    content: '>';
+    margin-left: 2rem;
+}
+
+section img {
+    display: block;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+section p {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* #### Footer #### */
+
+footer {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
